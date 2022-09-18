@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>前端第一月学习总结</title>
+      <link href="/2022/09/18/the-first-month/"/>
+      <url>/2022/09/18/the-first-month/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前端第一月学习总结"><a href="#前端第一月学习总结" class="headerlink" title="前端第一月学习总结"></a>前端第一月学习总结</h1><blockquote><p>从2022.08.08我开始正式学习前端，之前的学习因为自己英语不太好,而且没有与其他人的沟通,我就半途而废了.然后我就报线上培训班了。如果有同学想交流前端，请加q:1415320832.</p><blockquote><p>不过还是碰上许多好的教程及老师,我非常感谢各位开源自己课程的国内外老师们,包括但不限于Crash Courese的老师们以及CS自学指南的作者,建议各位初学者去学习一下Crash Course:Computer Science,是非常棒的课程.<br><br></p></blockquote></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/12945/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9C%88.png"></p><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="基础-12-x2F-26"><a href="#基础-12-x2F-26" class="headerlink" title="基础(12&#x2F;26)"></a>基础(12&#x2F;26)</h3><ul><li><p><strong>VSCODE</strong>:<br>一款学习之后才接触的软件,才几百兆的大小却非常实用,不过配置确实得花费一些心思,在老师的指导下配置还算顺利。</p><br></li><li><p>几篇文章：</p><p>虽然有好几篇我早已看过，但是还是感叹于有老师引路的便捷</p><ol><li><p>提问的智慧</p><br></li></ol></li><li><p>图片格式：</p><p>最离谱就是我一直以为png是有损压缩,而jpg是无损,事实是相反的,png是无损</p><br></li><li><p><strong>Git</strong>:</p><p>可以管理代码,不过我还是使用的不太熟悉,因为主要在leetcode上面刷题,所以不太用,不过最近的个人网站需要这个,其实整体操作也不是很难吧.</p><br></li><li><p>Markdown:</p><p>和Git一个道理,用的太少导致我写这篇总结还要看文档,也不太难.</p><br><Br><h3 id="html-amp-amp-css-0-x2F-122"><a href="#html-amp-amp-css-0-x2F-122" class="headerlink" title="html&amp;&amp;css(0&#x2F;122)"></a>html&amp;&amp;css(0&#x2F;122)</h3><p>这里只看了BroCode的2小时的速成视频,我觉得远远不够,等到哪天再补完之前拉下的视频吧</p><br><ul><li>html基本概念:以下概念都理解一点(通过几分钟的视频和一个例子)<ul><li>⭐️ 基本语法</li><li>⭐️ 标签<ul><li>分区 div</li><li>标题 h1 ~ h6</li><li>段落 p</li><li>图像 img</li><li>列表 ul &#x2F; ol</li><li>超链接 a</li><li>表单 form</li><li>表格 table</li><li>框架 iframe(我理解的是标签就是可以引用链接的那个)</li></ul></li><li>⭐️ 属性</li></ul></li></ul><br><ul><li>css基本概念:以下概念都理解一点(通过几分钟的视频和一个例子)<ul><li>⭐️ 基本语法</li><li>⭐️ 属性<ul><li>单位<ul><li>px</li><li>em</li><li>rem</li><li>vw</li><li>vh</li></ul></li><li>背景</li><li>文本</li><li>字体</li><li>列表</li><li>表格</li></ul></li><li>⭐️ 盒子模型<ul><li>content</li><li>padding</li><li>border</li><li>margin</li></ul></li><li>⭐️ 浮动<ul><li>设置浮动 float</li><li>清除浮动 clear</li></ul></li></ul></li></ul><p><BR><BR></p><h3 id="Javascript-132-x2F-132"><a href="#Javascript-132-x2F-132" class="headerlink" title="Javascript(132&#x2F;132)"></a>Javascript(132&#x2F;132)</h3><h4 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h4><p>103,105还好,从画图那里开始我就觉得很难应对了,然后数组,位运算,排序算法,链表,以及apply,map,filter,reduce,二叉树这些题目更是理解的很不好,我觉得只听懂概念还是远远不够的,我计划先写lodash中的库,然后再去写之前的题,尽量让09.18(周末)以后都跟着进度走吧.</p><br><blockquote><p>以下是我理解的概念不完全列举</p></blockquote></li><li><p>基本语法</p></li><li><p>⭐️ 数据类型</p><ul><li>值类型<ul><li>字符串 String</li><li>数组 Number</li><li>布尔 Boolean</li><li>空值 Null</li><li>未定义 Undefined</li><li>Symbol</li></ul></li><li>引用类型<ul><li>对象 Object</li><li>数组 Array</li><li>函数 Function</li></ul></li></ul></li><li><p>✅ 数据类型转换</p></li><li><p>✅ 函数</p><ul><li>⭐️ 概念</li><li>⭐️ 自定义函数</li><li>调用方式<ul><li>⭐️ 全局调用</li><li>构造函数调用</li><li>⭐️ 函数方法调用</li><li>apply</li><li>call</li></ul></li><li>✅❗ 闭包</li></ul></li><li><p>✅ 对象</p><ul><li>概念</li><li>常用对象<ul><li>数字 Number</li><li>字符串 String 对象</li><li>数组 Array</li><li>布尔 Boolean</li><li>算数 Math</li></ul></li><li>自定义对象</li></ul></li><li><p>⭐️ JSON</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

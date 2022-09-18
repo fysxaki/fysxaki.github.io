@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>枫叶三弦秋</title>
+  
+  <subtitle>记忆无法被抹去,只会淡去</subtitle>
+  <link href="https://fysxaki.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://fysxaki.github.io/"/>
+  <updated>2022-09-18T09:59:44.633Z</updated>
+  <id>https://fysxaki.github.io/</id>
+  
+  <author>
+    <name>Etsu Ba</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端第一月学习总结</title>
+    <link href="https://fysxaki.github.io/2022/09/18/the-first-month/"/>
+    <id>https://fysxaki.github.io/2022/09/18/the-first-month/</id>
+    <published>2022-09-18T02:25:00.000Z</published>
+    <updated>2022-09-18T09:59:44.633Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前端第一月学习总结&quot;&gt;&lt;a href=&quot;#前端第一月学习总结&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://fysxaki.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="前端" scheme="https://fysxaki.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+</feed>
