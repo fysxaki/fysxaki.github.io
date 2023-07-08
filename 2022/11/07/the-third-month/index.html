@@ -311,7 +311,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = 'db9826ad8bcbc4b970acf271f40ec0202aad136b7f02173218c25c8875727027';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -324,7 +324,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/12945/%E6%8B%9B%E8%81%98%E4%BC%9A%E5%8D%97%E5%8C%BA20220926_183309.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -477,7 +477,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-11-07
+                    2023-07-09
                 </div>
                 
 
@@ -657,7 +657,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://fysxaki.github.io/2022/11/07/the-third-month/">https://fysxaki.github.io/2022/11/07/the-third-month/</a>
+                    <a href="https://blog.fysxq.me/2022/11/07/the-third-month/">https://blog.fysxq.me/2022/11/07/the-third-month/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -870,30 +870,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/11/07/gong-xiang-de-dong-xi/">
+                <a href="/2022/12/08/the-fourth-month/">
                     <div class="card-image">
                         
-                        <img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/12945/叮当猫.png" class="responsive-img" alt="好东西要共享！">
                         
-                        <span class="card-title">好东西要共享！</span>
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="前端第四月学习总结">
+                        
+                        <span class="card-title">前端第四月学习总结</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            每周更新的实用的共享东西
+                            2022.11.08--2022.12.08的前端学习记录
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-11-07
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-12-08
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%85%B1%E4%BA%AB/" class="post-category">
-                                    共享
+                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
+                                    前端
                                 </a>
                             
                             
@@ -903,8 +904,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%85%B1%E4%BA%AB/">
-                        <span class="chip bg-color">共享</span>
+                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                        <span class="chip bg-color">前端</span>
                     </a>
                     
                 </div>
@@ -921,7 +922,7 @@
                 <a href="/2022/09/18/the-first-month/">
                     <div class="card-image">
                         
-                        <img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/12945/第一个月.png" class="responsive-img" alt="前端第一月学习总结">
+                        <img src="/images/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9C%88.png" class="responsive-img" alt="前端第一月学习总结">
                         
                         <span class="card-title">前端第一月学习总结</span>
                     </div>
@@ -1088,65 +1089,11 @@
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        display: none;
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
-
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
-        
-        font-size: 15px;
-        color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="playlist"
-                   id="503838841"
-                   fixed='true'
-                   autoplay='true'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='auto'
-                   volume='0.5'
-                   list-folded='true'
-        >
-        </meting-js>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-
-    
     <div class="container row center-align" style="margin-bottom: 0px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2022</span>
+                <span id="year">2022-2023</span>
             
             <span id="year">2022</span>
             <a href="/about" target="_blank">Etsu Ba</a>
@@ -1155,7 +1102,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.7k</span>&nbsp;字
+                class="white-color">2.6k</span>&nbsp;字
             
             
             
